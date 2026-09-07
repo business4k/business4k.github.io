@@ -1557,3 +1557,166 @@ main {
   }
 
 }
+
+
+/* =========================================================
+   NEW FOOTER
+   ========================================================= */
+
+.footer-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 65px 22px 55px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 45px;
+
+  text-align: center;
+}
+
+.footer-brand {
+  max-width: 650px;
+  text-align: center;
+}
+
+.footer-logo {
+  display: inline-block;
+
+  color: #ffffff;
+  text-decoration: none;
+
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: -1.5px;
+  line-height: 1;
+}
+
+.footer-description {
+  margin: 20px auto 0;
+
+  max-width: 600px;
+
+  color: #a7a7a7;
+
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+
+/* SECTIONS + LEGALS */
+
+.footer-section {
+  width: 100%;
+  text-align: center;
+}
+
+.footer-section h3 {
+  margin: 0 0 22px;
+
+  color: #ffffff;
+
+  font-size: 13px;
+  font-weight: 900;
+
+  letter-spacing: 0.16em;
+
+  text-align: center;
+}
+
+.footer-links {
+  max-width: 1000px;
+
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  gap: 14px 28px;
+}
+
+.footer-links a {
+  color: #aaaaaa;
+
+  text-decoration: none;
+
+  font-size: 11px;
+  font-weight: 800;
+
+  letter-spacing: 0.08em;
+
+  text-transform: uppercase;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+
+
+/* BOTTOM */
+
+.footer-bottom {
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+  padding: 20px 22px;
+
+  border-top: 1px solid #262626;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 25px;
+
+  color: #777777;
+
+  font-size: 10px;
+  font-weight: 800;
+
+  letter-spacing: 0.08em;
+
+  text-align: center;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+  .footer-main {
+    padding: 50px 18px 40px;
+    gap: 40px;
+  }
+
+  .footer-logo {
+    font-size: 28px;
+  }
+
+  .footer-description {
+    font-size: 13px;
+  }
+
+  .footer-links {
+    gap: 13px 20px;
+  }
+
+  .footer-links a {
+    font-size: 10px;
+  }
+
+  .footer-bottom {
+    padding: 18px 15px;
+
+    flex-direction: column;
+
+    gap: 7px;
+  }
+
+}
