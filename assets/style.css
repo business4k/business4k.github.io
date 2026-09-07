@@ -1720,3 +1720,144 @@ main {
   }
 
 }
+/* =========================================================
+   STATIC / LEGAL PAGES
+   ========================================================= */
+
+.static-page {
+  width: 100%;
+  max-width: 900px;
+
+  box-sizing: border-box;
+
+  margin: 0 auto;
+
+  padding: 60px 30px 90px;
+
+  color: #111111;
+}
+
+
+/* PAGE TITLE */
+
+.static-page h1 {
+  margin: 0 0 35px;
+
+  font-size: clamp(38px, 6vw, 58px);
+
+  line-height: 1.05;
+
+  font-weight: 900;
+
+  letter-spacing: -0.035em;
+
+  text-align: center;
+}
+
+
+/* LAST UPDATED */
+
+.static-page h1 + p {
+  margin: 0 0 55px;
+
+  color: #777777;
+
+  font-size: 14px;
+
+  line-height: 1.6;
+
+  text-align: center;
+}
+
+
+/* SECTION TITLES */
+
+.static-page h2 {
+  margin: 50px 0 18px;
+
+  font-size: 30px;
+
+  line-height: 1.15;
+
+  font-weight: 900;
+
+  letter-spacing: -0.025em;
+}
+
+
+/* PARAGRAPHS */
+
+.static-page p {
+  margin: 0 0 24px;
+
+  font-size: 17px;
+
+  line-height: 1.75;
+
+  color: #222222;
+}
+
+
+/* PREVENT LONG TEXT FROM BREAKING THE PAGE */
+
+.static-page,
+.static-page * {
+  max-width: 100%;
+
+  box-sizing: border-box;
+
+  overflow-wrap: break-word;
+
+  word-wrap: break-word;
+}
+
+
+/* =========================================================
+   MOBILE STATIC PAGES
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+  .static-page {
+    width: 100%;
+
+    padding: 38px 18px 65px;
+  }
+
+
+  .static-page h1 {
+    margin-bottom: 28px;
+
+    font-size: 38px;
+
+    line-height: 1.08;
+  }
+
+
+  .static-page h1 + p {
+    margin-bottom: 42px;
+
+    font-size: 14px;
+  }
+
+
+  .static-page h2 {
+    margin-top: 42px;
+
+    margin-bottom: 16px;
+
+    font-size: 25px;
+
+    line-height: 1.2;
+  }
+
+
+  .static-page p {
+    margin-bottom: 22px;
+
+    font-size: 17px;
+
+    line-height: 1.65;
+  }
+
+}
