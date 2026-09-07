@@ -560,7 +560,6 @@ main {
   background: #000000;
 }
 
-
 /* SECTION COLORS */
 
 .latest-section .section-heading h2::after {
@@ -568,19 +567,23 @@ main {
 }
 
 .popular-section .section-heading h2::after {
-  background: #1769aa;
+  background: #f59e0b;
 }
 
 .read-section .section-heading h2::after {
-  background: #000000;
+  background: #8b5cf6;
+}
+
+.business-section .section-heading h2::after {
+  background: #2563eb;
 }
 
 .markets-section .section-heading h2::after {
-  background: #1769aa;
+  background: #16a34a;
 }
 
 .companies-section .section-heading h2::after {
-  background: #111111;
+  background: #0891b2;
 }
 
 .technology-section .section-heading h2::after {
@@ -588,28 +591,13 @@ main {
 }
 
 .economics-section .section-heading h2::after {
-  background: #e53935;
+  background: #d97706;
 }
 
 .world-section .section-heading h2::after {
-  background: #1769aa;
+  background: #0f766e;
 }
 
-
-.section-heading a {
-  color: #000000;
-
-  font-size: 12px;
-  font-weight: 800;
-
-  text-decoration: none;
-
-  text-transform: uppercase;
-}
-
-.section-heading a:hover {
-  text-decoration: underline;
-}
 
 
 /* =========================
