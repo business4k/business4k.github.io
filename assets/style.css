@@ -1313,3 +1313,183 @@ main {
   }
 
    }
+
+/* =========================================================
+   ARTICLE PAGE
+   ========================================================= */
+
+.article-page {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 55px 22px 90px;
+  box-sizing: border-box;
+}
+
+.article-title {
+  margin: 10px 0 0;
+
+  color: #000000;
+
+  font-size: clamp(36px, 6vw, 64px);
+  line-height: 1.05;
+  letter-spacing: -0.035em;
+
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+.article-page .article-category {
+  margin-bottom: 10px;
+
+  color: #777777;
+
+  font-size: 12px;
+  font-weight: 900;
+
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.article-page .article-meta {
+  margin-top: 22px;
+
+  color: #777777;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.article-content {
+  margin-top: 48px;
+
+  width: 100%;
+
+  color: #111111;
+
+  font-size: 19px;
+  line-height: 1.7;
+
+  overflow-wrap: anywhere;
+  word-wrap: break-word;
+}
+
+.article-content h2 {
+  margin: 45px 0 18px;
+
+  font-size: 32px;
+  line-height: 1.15;
+
+  overflow-wrap: anywhere;
+}
+
+.article-content h3 {
+  margin: 35px 0 15px;
+
+  font-size: 25px;
+  line-height: 1.2;
+
+  overflow-wrap: anywhere;
+}
+
+.article-content p {
+  margin: 0 0 25px;
+}
+
+.article-content img {
+  display: block;
+
+  max-width: 100%;
+  width: auto;
+  height: auto;
+
+  margin: 30px auto;
+}
+
+.article-content a {
+  overflow-wrap: anywhere;
+}
+
+.article-content table {
+  display: block;
+
+  max-width: 100%;
+
+  overflow-x: auto;
+}
+
+.article-content pre,
+.article-content code {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+
+/* =========================
+   ARTICLE MOBILE
+   ========================= */
+
+@media (max-width: 700px) {
+
+  .article-page {
+    width: 100%;
+    max-width: 100%;
+
+    margin: 0;
+
+    padding: 35px 16px 65px;
+
+    box-sizing: border-box;
+  }
+
+  .article-page .article-category {
+    font-size: 10px;
+  }
+
+  .article-title {
+    margin-top: 8px;
+
+    font-size: 38px;
+    line-height: 1.08;
+    letter-spacing: -0.025em;
+
+    overflow-wrap: anywhere;
+  }
+
+  .article-page .article-meta {
+    margin-top: 18px;
+
+    font-size: 12px;
+  }
+
+  .article-content {
+    margin-top: 38px;
+
+    font-size: 18px;
+    line-height: 1.65;
+
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
+
+  .article-content h2 {
+    margin-top: 38px;
+
+    font-size: 27px;
+    line-height: 1.15;
+  }
+
+  .article-content h3 {
+    font-size: 23px;
+  }
+
+  .article-content p {
+    margin-bottom: 23px;
+  }
+
+  .article-content img {
+    max-width: 100%;
+    height: auto;
+  }
+
+}
