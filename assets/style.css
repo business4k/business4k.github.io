@@ -1797,4 +1797,12 @@ main {
     line-height: 1.65;
   }
 }
+.section-heading a {
+  color: #000000;
+  text-decoration: none;
+}
 
+.section-heading a:hover {
+  color: #000000;
+  text-decoration: none;
+}
