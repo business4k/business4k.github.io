@@ -378,7 +378,10 @@ description: "Global economic events, market news, company stories, and the foun
     <a href="{{ '/categories/business/' | relative_url }}">
   More →
     </a>
-
+  
+  </div>
+ 
+  
   {% assign business_posts = site.posts | where: "category", "business" %}
 
   {% if business_posts.size > 0 %}
