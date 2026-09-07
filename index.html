@@ -371,7 +371,51 @@ description: "Global economic events, market news, company stories, and the foun
 
 </section>
 
+<!-- BUSINESS -->
+<section class="home-section business-section">
+  <div class="section-heading">
+    <h2>BUSINESS</h2>
+    <a href="{{ '/categories/business/' | relative_url }}">VIEW ALL</a>
+  </div>
 
+  {% assign business_posts = site.posts | where: "category", "business" %}
+
+  {% if business_posts.size > 0 %}
+    <div class="home-article-list">
+      {% for post in business_posts limit:4 %}
+        <article class="article-card">
+          {% if post.image %}
+            <a href="{{ post.url | relative_url }}">
+              <img
+                class="article-card-image"
+                src="{{ post.image | relative_url }}"
+                alt="{{ post.title }}"
+                loading="lazy">
+            </a>
+          {% endif %}
+
+          <div class="article-card-category">{{ post.category }}</div>
+
+          <h3 class="article-card-title">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h3>
+
+          {% if post.description %}
+            <p>{{ post.description }}</p>
+          {% endif %}
+
+          <div class="article-card-meta">
+            {{ post.date | date: "%B %d, %Y" }}
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="article-empty">
+      <h3>NO ARTICLES YET</h3>
+    </div>
+  {% endif %}
+</section>
 
 <!-- MARKETS -->
 
