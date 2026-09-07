@@ -2,72 +2,104 @@
 layout: default
 ---
 <div class="category-page">
-<div class="category-page-divider-top"></div>
-  <h1 class="category-page-title">
-    {{ page.title }}
-  </h1>
 
-  <div class="category-page-divider"></div>
+  <div class="category-page-header">
+
+    <h1 class="category-page-title">
+      {{ page.title }}
+    </h1>
+
+  </div>
+
 
   {% if page.category == "all" %}
+
     {% assign category_posts = site.posts %}
+
   {% elsif page.subcategories %}
+
     {% assign category_posts = site.posts | where_exp: "post", "page.subcategories contains post.category" %}
+
   {% else %}
+
     {% assign category_posts = site.posts | where: "category", page.category %}
+
   {% endif %}
+
 
   {% if category_posts.size > 0 %}
 
-  <div class="category-article-list">
+    <div class="category-article-list">
 
-    {% for post in category_posts %}
+      {% for post in category_posts %}
 
-    <article class="article-card article-card-list">
+        <article class="article-card article-card-list">
 
-      {% if post.image %}
-      <a href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
-        <img
-          class="article-card-image"
-          src="{{ post.image | relative_url }}"
-          alt="{{ post.image_alt | default: post.title }}"
-          loading="lazy"
-        >
-      </a>
-      {% endif %}
+          {% if post.image %}
 
-      <div class="article-card-category">
-        {{ post.category }}
-      </div>
+            <a href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
 
-      <h2 class="article-card-title">
-        <a href="{{ post.url | relative_url }}">
-          {{ post.title }}
-        </a>
-      </h2>
+              <img
+                class="article-card-image"
+                src="{{ post.image | relative_url }}"
+                alt="{{ post.image_alt | default: post.title }}"
+                loading="lazy"
+              >
 
-      {% if post.description %}
-      <p>{{ post.description }}</p>
-      {% endif %}
+            </a>
 
-      <div class="article-card-meta">
-        {% if post.author %}By {{ post.author }} &middot; {% endif %}
-        {{ post.date | date: "%B %d, %Y" }}
-        {% if post.read_time %} &middot; {{ post.read_time }} min read{% endif %}
-      </div>
+          {% endif %}
 
-    </article>
 
-    {% endfor %}
+          <div class="article-card-category">
+            {{ post.category }}
+          </div>
 
-  </div>
+
+          <h2 class="article-card-title">
+
+            <a href="{{ post.url | relative_url }}">
+              {{ post.title }}
+            </a>
+
+          </h2>
+
+
+          {% if post.description %}
+
+            <p>{{ post.description }}</p>
+
+          {% endif %}
+
+
+          <div class="article-card-meta">
+
+            {% if post.author %}
+              By {{ post.author }} &middot;
+            {% endif %}
+
+            {{ post.date | date: "%B %d, %Y" }}
+
+            {% if post.read_time %}
+              &middot; {{ post.read_time }} min read
+            {% endif %}
+
+          </div>
+
+        </article>
+
+      {% endfor %}
+
+    </div>
+
 
   {% else %}
 
-  <div class="article-empty">
-    <h3>No articles yet.</h3>
-    <p>Articles will appear here as soon as they are published.</p>
-  </div>
+    <div class="article-empty">
+
+      <h3>NO ARTICLES YET</h3>
+
+    </div>
 
   {% endif %}
 
