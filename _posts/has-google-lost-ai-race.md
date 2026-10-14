@@ -2,6 +2,10 @@
 title: "Has Google Lost the AI Race? A Complete 2026 Analysis"
 description: "Has Google lost the AI race? Explore Gemini vs ChatGPT, Google's TPUs, AI data centers, cloud competition, and its 2026 AI investment strategy."
 category: "Technology" 
+categories:
+  - Technology
+  - Companies
+  - United States
 image: "/assets/images/google-ai-race-2026.png"
 image_alt: "Google AI infrastructure and data center technology"
 read_time: 10
