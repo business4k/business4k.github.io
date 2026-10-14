@@ -1,7 +1,11 @@
 ---
 title: "The Story Behind a Business That Changed the World"
 description: "How companies, ideas, and products can transform entire industries."
-category: "Companies"
+category: "Technology"
+categories:
+  - Technology
+  - Companies
+  - United States
 image: "/assets/images/business-story.jpg"
 image_alt: "Business meeting"
 read_time: 5
