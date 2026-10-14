@@ -44,7 +44,7 @@ Google's latest move is Gemini 4 Argon, announced for broader availability on Oc
 
 The verdict is therefore mixed. ChatGPT remains a formidable consumer product, while Gemini benefits from distribution and Google's ability to connect AI models to existing services. Neither user totals nor benchmark rankings alone tell the whole story.
 
-<img src="/assets/images/google-ai-data-centers.webp" alt="AI data center infrastructure" loading="lazy" style="max-width:100%;height:auto;">
+<img src="/assets/images/google-ai-data-centers.png" alt="AI data center infrastructure" loading="lazy" style="max-width:100%;height:auto;">
 ### Google Data Centers: Own, Lease or Guarantee?
 
 Google secures computing capacity through several arrangements, each with different financial consequences. Building and owning data centers gives the company greater control over design, infrastructure and the integration of its custom chips. At scale, this approach can lower long-term computing costs. However, it requires enormous upfront investment, access to electricity and years of construction.
@@ -73,7 +73,7 @@ Alphabet also established a $40 billion at-the-market stock program. There is an
 
 This does not, by itself, indicate a liquidity crisis. Alphabet has substantial operating earnings and positive trailing-year free cash flow. But it does show that the expansion involves outside capital as well as internally generated cash. Ultimately, the strategy must produce returns that justify the cost of building and financing the infrastructure.
 
-<img src="/assets/images/google-tpu-vs-nvidia.webp" alt="AI chips and computing hardware" loading="lazy" style="max-width:100%;height:auto;">
+<img src="/assets/images/google-tpu-vs-nvidia.png" alt="AI chips and computing hardware" loading="lazy" style="max-width:100%;height:auto;">
 ### Google TPU vs Nvidia GPU: Can Custom Chips Lower the Cost of AI?
 
 Nvidia remains central to the AI hardware market. Its GPUs are powerful, its CUDA software ecosystem is mature, and developers can use its technology across a wide range of workloads. Nvidia's reported data-center revenue reached $89.0 billion in the quarter ended July 26, 2026, up 117% from a year earlier.
@@ -120,7 +120,7 @@ Google also faces fierce competition for enterprise developers and AI workloads.
 
 The central question is whether Google's control of multiple layers of the AI stack creates an economic advantage—or whether competition forces the company to keep spending heavily just to maintain its position.
 
-<img src="/assets/images/ai-cloud-computing.webp" alt="Cloud computing and AI infrastructure" loading="lazy" style="max-width:100%;height:auto;">
+<img src="/assets/images/ai-cloud-computing.png" alt="Cloud computing and AI infrastructure" loading="lazy" style="max-width:100%;height:auto;">
 ### The Future: Three Scenarios for Google
 
 In the optimistic scenario, Gemini continues to attract users, Google Cloud sustains strong growth, TPUs reduce costs for selected workloads and AI-powered Search generates advertising revenue comparable to the traditional business. The infrastructure build-out then looks like a well-timed investment, and Google emerges as one of the most complete companies in artificial intelligence.
