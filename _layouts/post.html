@@ -15,6 +15,15 @@ layout: default
     {{ page.date | date: "%B %d, %Y" }}
   </div>
 
+  {% if page.image %}
+  <img
+    class="article-hero"
+    src="{{ page.image | relative_url }}"
+    alt="{{ page.image_alt | default: page.title }}"
+    style="display:block;width:100%;height:auto;margin:0 0 24px;"
+  >
+  {% endif %}
+  
   <div class="article-content">
     {{ content }}
   </div>
