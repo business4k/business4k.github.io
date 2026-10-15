@@ -414,14 +414,13 @@ main {
 
 .ticker-wrap {
   width: 100%;
+  height: 78px;
   overflow: hidden;
 
   border-bottom: 1px solid #dddddd;
   background: #e5e5e5;
 }
-.ticker-wrap .tradingview-widget-container {
-  height: 78px;
-}
+
 
 /* =========================
    HERO / TOP STORY
