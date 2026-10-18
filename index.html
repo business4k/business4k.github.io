@@ -652,6 +652,74 @@ description: "Global economic events, market news, company stories, and the foun
 </section>
 
 
+<!-- SOCIAL MEDIA -->
+
+<section class="home-section social-media-section">
+
+  <div class="section-heading">
+
+    <h2>Social Media</h2>
+
+    <a href="{{ '/categories/social-media/' | relative_url }}">
+      More →
+    </a>
+
+  </div>
+
+  {% assign social_media_posts = site.posts
+    | where: "category", "Social Media"
+    | sort: "date"
+    | reverse
+  %}
+
+  {% if social_media_posts.size > 0 %}
+
+  <div class="home-article-list">
+
+    {% for post in social_media_posts limit:4 %}
+
+    <a
+      class="home-article-card"
+      href="{{ post.url | relative_url }}"
+    >
+
+      <div class="home-article-text">
+
+        <div class="home-article-category">
+          {{ post.category }}
+        </div>
+
+        <h3>{{ post.title }}</h3>
+
+      </div>
+
+      {% if post.image %}
+
+      <img
+        src="{{ post.image | relative_url }}"
+        alt="{{ post.image_alt | default: post.title }}"
+        class="home-article-image"
+        loading="lazy"
+      >
+
+      {% endif %}
+
+    </a>
+
+    {% endfor %}
+
+  </div>
+
+  {% else %}
+
+  <div class="home-empty">
+    NO ARTICLES YET
+  </div>
+
+  {% endif %}
+
+</section>
+
 
 <!-- ECONOMICS -->
 
