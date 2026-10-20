@@ -6,6 +6,7 @@ categories:
   - Technology
   - Companies
   - United States
+  - World
 image: "/assets/images/google-ai-race-2026.png"
 image_alt: "Google AI infrastructure and data center technology"
 read_time: 10
