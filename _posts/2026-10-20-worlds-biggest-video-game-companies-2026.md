@@ -24,7 +24,7 @@ Ranking these businesses is not as straightforward as comparing their total corp
 This article examines ten of the world's biggest video game companies by gaming-related business scale, looking at their financial performance, major franchises, competitive advantages and business strategies. Because companies report different financial measures and fiscal periods, the ranking should be viewed as an informed comparison rather than a perfectly uniform league table.
 
 ### 1. Tencent: The Global Powerhouse of Gaming
-![Tencent gaming business and video game portfolio](/assets/images/tencent-gaming-2026.png)
+
 
 "Tencent gaming business and video game portfolio" (/assets/images/tencent-gaming-2026.png)
 
@@ -41,7 +41,7 @@ However, Tencent faces challenges. China's regulatory environment can affect gam
 Despite these risks, Tencent's combination of established games, mobile expertise and international investments makes it one of the most important players in the industry.
 
 ### 2. Sony: PlayStation's Global Gaming Ecosystem
-![Sony PlayStation gaming business](/assets/images/sony-playstation-gaming-2026.jpg)
+
 "Sony PlayStation gaming business" (/assets/images/sony-playstation-gaming-2026.jpg)
 
 Sony has built one of the strongest gaming ecosystems through PlayStation hardware, digital game sales, subscriptions and first-party development. Its gaming business benefits from the relationship between consoles, exclusive titles, online services and the PlayStation Store.
