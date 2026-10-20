@@ -1824,3 +1824,14 @@ main {
 .category-page a:hover {
   text-decoration: none;
 }
+
+main a,
+main a:visited {
+  color: #000000 !important;
+  text-decoration: none !important;
+}
+
+.article-content a {
+  color: #0b57d0 !important;
+  text-decoration: underline !important;
+}
