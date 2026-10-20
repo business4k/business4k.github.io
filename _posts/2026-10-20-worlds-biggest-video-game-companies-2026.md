@@ -3,16 +3,14 @@ title: "The World's 10 Biggest Video Game Companies in 2026"
 description: "Discover the world's 10 biggest video game companies in 2026, comparing gaming revenue, major franchises, financial performance and business models."
 category: "Entertainment"
 categories:
-- Entertainment
-- Companies
-- United States
-- China
-- Japan
-  
-  image: "/assets/images/biggest-video-game-companies-2026.jpg"
-  image_alt: "The world's biggest video game companies in 2026"
-  read_time: 10
-
+  - Entertainment
+  - Companies
+  - United States
+  - China
+  - Japan
+image: "/assets/images/biggest-video-game-companies-2026.jpg"
+image_alt: "The world's biggest video game companies in 2026"
+read_time: 10
 ---
 
 ### The World's 10 Biggest Video Game Companies in 2026
