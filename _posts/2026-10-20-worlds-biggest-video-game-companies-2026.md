@@ -8,7 +8,6 @@ categories:
 - United States
 - China
 - Japan
-- World
   
   image: "/assets/images/biggest-video-game-companies-2026.jpg"
   image_alt: "The world's biggest video game companies in 2026"
