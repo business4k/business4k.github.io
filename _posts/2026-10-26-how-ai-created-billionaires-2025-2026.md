@@ -9,6 +9,7 @@ categories:
  - United States
  - China
  - World
+ - 
   image: /assets/images/ai-billionaires-2026.webp
   image_alt: Artificial intelligence entrepreneurs and technology infrastructure driving billionaire wealth through AI startups, software, chips and data centers
   read_time: 10
