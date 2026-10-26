@@ -4,11 +4,11 @@ description: "Discover how AI created more than 50 billionaires in 2025 and resh
 date: 2026-10-26
 category: "Billionaires"
 categories:
-" Companies"
- "Technology"
- "United States"
- "China"
- "World"
+ -Companies
+ -Technology
+ -United States
+ -China
+ -World
   image: /assets/images/ai-billionaires-2026.webp
   image_alt: Artificial intelligence entrepreneurs and technology infrastructure driving billionaire wealth through AI startups, software, chips and data centers
   read_time: 10
